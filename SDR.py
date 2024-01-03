@@ -1,1 +1,3 @@
-# need to import library for virtual SD Radio
+# installed pyrtlsdr w/ pip
+
+# Realtek RTL2832U
