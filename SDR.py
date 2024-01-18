@@ -11,3 +11,7 @@ result = np.square(arr1)
 print(result)
 
 # add numpy filter for imported array
+
+arr  = np.array([5, 10, 15, 20])
+
+# test array
