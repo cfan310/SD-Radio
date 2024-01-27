@@ -15,6 +15,17 @@ def main():
 
     # device configuration
     sdr.sample_rate = 2.048e6   # set initially to 2,480,000
+    sdr.center_freq = 1.043e8                      # 104,300,000 MHz for Q-104.3 classic rock radio in NYC
+    sdr.frequency_correction = 60   #PPM            parts per million
+    sdr.gain = 'auto'
+
+    # frequency variation = 6,258,000,000 Hz
+
+    # read samples
+    samples = sdr.read_samples(256*1024)
+
+    print(samples)
+
 
 
 
