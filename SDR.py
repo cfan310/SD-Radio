@@ -12,11 +12,11 @@ print(result)
 
 # add numpy filter for imported array
 
-arr  = np.array([5, 10, 15, 20])
+arr = np.array([5, 10, 15, 20])
 
 # test array
 
-arr2 = np.array([2, 4, 6, 8, 10])
+arr2 = np.array([128, 64, 32, 16, 8, 4, 2, 1])
 
 result = np.square(arr2)
 
