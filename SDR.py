@@ -21,10 +21,19 @@ def main():
 
     # frequency variation = 6,258,000,000 Hz
 
+    # variation 6 GHz
+
     # read samples
     samples = sdr.read_samples(256*1024)
 
     print(samples)
+
+# Cleanup
+    sdr.close()
+
+if __name__ == "__main__":
+    main()
+
 
 
 
