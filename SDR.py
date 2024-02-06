@@ -5,6 +5,7 @@
 # RTL-SDR Blog V3 R860 RTL2832U 1PPM TCXO HF Bias Tee SMA Software Defined Radio
 
 import numpy as np
+'''
 from rtlsdr import RtlSdr
 
 
@@ -33,12 +34,10 @@ def main():
 
 if __name__ == "__main__":
     main()
-
+'''
 x = np.array([5, 10, 15, 20, 25])
-print(x[0])
 
-
-
+print("Array with each element cubed:", x ** 3)
 
 
 
