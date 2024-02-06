@@ -39,19 +39,19 @@ x = np.array([5, 10, 15, 20, 25])
 
 print("Array with each element cubed:", x ** 3)
 
+mean_value = np.mean(x)
+print("Mean of array:", x)
 
 
 
-'''
-arr1 = np.array([2, 4, 6, 8, 10])
 
-result = np.square(arr1)
 
-print(result)
+
+
 
 # add numpy filter for imported array
-
-arr = np.array([5, 10, 15, 20])
+'''
+arr4 = np.array([5, 10, 15, 20])
 
 # test array
 
@@ -59,5 +59,7 @@ arr2 = np.array([128, 64, 32, 16, 8, 4, 2, 1])
 
 result = np.square(arr2)
 
-print(result)
+print(result)   
+
+
 '''
