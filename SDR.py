@@ -44,6 +44,8 @@ print("Mean of array:", x)
 
 
 
+arr1 = [1, -3, 15, -466]
+print ("Square Value of arr1 : \n", np.square(arr1))
 
 
 
